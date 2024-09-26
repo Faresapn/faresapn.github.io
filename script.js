@@ -1,4 +1,4 @@
-let nama, val;
+let nama, val; Aina Mirinda
 const url_string = document.URL;
 const url = new URL(url_string);
 let sender;
@@ -6,7 +6,7 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Faresa";
+  sender = "Ainaaaa";
 }
 
 
