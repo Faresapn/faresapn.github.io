@@ -6,14 +6,14 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Faresa";
+  sender = "lisma";
 }
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Hallo Baby", "Aku ada pertanyaan nih buat kamu By", "question").then(function () {
-    Swal.fire("Jawab yang jujur ya!").then(function () {
-      Swal.fire("Awas aja kalau kamu bohong", "", "error").then(function () {
+    Swal.fire("Jawab yang jujur ya sayang!").then(function () {
+      Swal.fire("Awas aja kalau kamu bohong ", "", "error").then(function () {
 
         const {
           value: name
